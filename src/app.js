@@ -5,11 +5,11 @@ const mongoSanitize = require('express-mongo-sanitize');
 const compression = require('compression');
 const cors = require('cors');
 const httpStatus = require('http-status');
-const config = require('./src/config/config');
-const morgan = require('./src/config/morgan');
-const routes = require('./src/routes/v1');
-const { errorConverter, errorHandler } = require('./src/middlewares/error');
-const ApiError = require('./src/utils/ApiError');
+const config = require('./config/config');
+const morgan = require('./config/morgan');
+const routes = require('./routes/v1');
+const { errorConverter, errorHandler } = require('./middlewares/error');
+const ApiError = require('./utils/ApiError');
 const bodyParser = require('body-parser');
 
 const app = express();

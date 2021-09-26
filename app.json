@@ -1,0 +1,6 @@
+{
+    "name": "homitag-docker",
+    "description": "Homitag Test assignment.",
+    "image": "heroku/nodejs",
+    "addons": []
+}
